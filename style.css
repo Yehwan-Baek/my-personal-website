@@ -1,59 +1,109 @@
 * {
-    margin-top: 0;
-  }
-  
-  /*home*/
-  #home {
-    height: 780px;
-  }
-  
-  .nav-bar ul {
-    position: fixed;    
-    list-style: none;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  
-  .nav-bar li {
-    display: inline-block;
-    padding: 20px;
-  }
-  
-  .nav-bar a {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-  }
-  
-  .nav-bar a:hover{
-    
-  }
-  
-  .nav-bar a:visited {
-      
-  }
-  
-  .intro {
-    position: relative;
-    top: 400px;
-    margin:0 auto;
-    text-align: center;
-    width: 560px;
-  }
+  margin-top: 0;
+  z-index: 1;
+}
 
+/*home*/
+#home {
+  height: 780px;
+}
+
+.nav-bar ul {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  list-style: none;
+  background: white;
+  z-index: 10;
+}
+
+.nav-bar li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8em;
+}
+
+.nav-bar a:hover{
   
+}
+
+.nav-bar a:visited {
+    
+}
+
+.intro {
+  position: relative;
+  top: 400px;
+  margin:0 auto;
+  text-align: center;
+  width: 560px;
+}
+
+
+
+/*skill part*/
+#skills {
+  height: 780px;
+  position: relative;
+  text-align: center;
+
+}
+
+#skills >div {
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+.list {
+  list-style: none;
+}
+
+/*experience part*/
+#experience {
+  height: 780px;
+  position: relative;
+  text-align: center;
+}
+
+#experience >div {
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/*contact part*/
+#contact {
+  height: 780px;
+  position: relative;
+  text-align: center;  
+}
+
+#contact >div {
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translate(-50%);
+  margin:0 auto;
+}
   
-  /*skill part*/
-  #skills {
-    height: 780px;
-  }
-  
-  /*experience part*/
-  #experience {
-    height: 780px;
-  }
-  
-  /*contact part*/
-  #contact {
-    height: 780px;
-  }
+#contact ul {
+  list-style: none;
+}
+
+#contact a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}

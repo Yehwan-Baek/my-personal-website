@@ -1,0 +1,59 @@
+* {
+    margin-top: 0;
+  }
+  
+  /*home*/
+  #home {
+    height: 780px;
+  }
+  
+  .nav-bar ul {
+    position: fixed;    
+    list-style: none;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .nav-bar li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+  }
+  
+  .nav-bar a:hover{
+    
+  }
+  
+  .nav-bar a:visited {
+      
+  }
+  
+  .intro {
+    position: relative;
+    top: 400px;
+    margin:0 auto;
+    text-align: center;
+    width: 560px;
+  }
+
+  
+  
+  /*skill part*/
+  #skills {
+    height: 780px;
+  }
+  
+  /*experience part*/
+  #experience {
+    height: 780px;
+  }
+  
+  /*contact part*/
+  #contact {
+    height: 780px;
+  }

@@ -1,14 +1,99 @@
+/*set viewport*/
+@media (min-width: 360px) {
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .nav-bar li {
+  display: inline-block;
+  padding: 5px 5px;
+  }
+}
+@media (min-width: 768px) {
+  .col-tablet-3 {
+    width: 25%;
+  }  
+  .col-tablet-4 {
+    width: 33.33%;
+  }
+  .col-tablet-6 {
+    width: 50%;
+  }
+  .col-tablet-8 {
+    width: 66.66%;
+  }  
+  .col-tablet-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1280px) {
+  .col-desktop-3 {
+    width: 25%;
+  }    
+  .col-desktop-4 {
+    width: 33.33%;
+  }
+  .col-desktop-6 {
+    width: 50%;
+  }
+  .col-desktop-8 {
+    width: 66.66%;
+  }  
+  .col-desktop-12 {
+    width: 100%;
+  }
+  .nav-bar li {
+  display: inline-block;
+  padding: 5px 30px;
+  }
+  .intro {
+  position: absolute;
+  width: 540px;
+  left: 50%;
+  transform: translate(-50%);
+  }
+  .content-of-skills{
+    position: relative;
+  }
+  .content-of-skills {
+    display: flex;
+    justify-content: center;
+  }
+  .row {
+    float: left;
+    margin-top: 5%;
+  }
+}
+
+
 * {
+  box-sizing: content-box;
   margin-top: 0;
   background: grey;
   color: white;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0;
 }
 
-/*home*/
-#home {
-  height: 780px;
-  position: relative;
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.8em;
 }
 
 .nav-bar ul {
@@ -22,92 +107,44 @@
   z-index: 1;
 }
 
-.nav-bar li {
-  display: inline-block;
-  padding: 10px;
-}
-
-.nav-bar a {
-  text-decoration: none;
-  font-size: 0.8em;
-}
-
 .nav-bar a:hover{
   background: white;
   color: black;
 }
 
+.container {
+  height: 700px;
+  position: relative;
+}
+
 .intro {
   position: absolute;
-  text-align: center;
-  top: 400px;
-  left: 50%;
-  transform: translate(-50%);
-  width: 560px;
-}
-
-
-
-/*skill part*/
-#skills {
-  height: 780px;
-  position: relative;
-  text-align: center;
-}
-
-#skills >div {
-  position: absolute;
-  top: 180px;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-
-.list {
-  list-style: none;
-}
-
-/*experience part*/
-#experience {
-  height: 780px;
-  position: relative;
-  text-align: center;
-}
-
-#experience >div {
-  position: absolute;
-  top: 180px;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.half {
-
-  padding-top: 15%;
-  margin: 40px;
-  font-size: 1.2em;
-}
-
-/*contact part*/
-#contact {
-  height: 780px;
-  position: relative;
-  text-align: center;  
-}
-
-#contact >div {
-  position: absolute;
-  top: 180px;
-  left: 50%;
-  transform: translate(-50%);
-  margin:0 auto;
-}
+  top: 150px;
   
-#contact ul {
-  list-style: none;
 }
 
-#contact a {
-  text-align: center;
-  text-decoration: none;
+.skills {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.experience {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.edu {
+  font-size: 1.2em;
+  margin-top: 40px;
+}
+
+.contact {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
 }

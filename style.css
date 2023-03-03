@@ -80,7 +80,7 @@
 * {
   box-sizing: content-box;
   margin-top: 0;
-  background: dimgrey;
+  background: slategrey;
   color: white;
   font-family: sans-serif;
   text-align: center;
@@ -119,22 +119,24 @@ a {
 
 .intro {
   position: absolute;
-  top: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   
 }
 
 .skills {
   position: absolute;
-  top: 150px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .experience {
   position: absolute;
-  top: 150px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .edu {
@@ -144,7 +146,7 @@ a {
 
 .contact {
   position: absolute;
-  top: 150px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
 }
